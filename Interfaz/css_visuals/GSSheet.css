@@ -1,0 +1,102 @@
+/*--StyleSheet----*/
+/*--all--*/
+/*--banner_return--*/
+@color-green: #76AB1E;
+.banner-container {width: 150px;height: 150px;overflow: hidden;position: absolute;top: -5px;left: -5px;&:after {content: "";display: block;width: 10px;height: 5px;background-color: darken(@color-green, 5%);position: absolute;top: 0;right: 0;z-index: -1;}&:before {content: "";display: block;height: 10px;width: 5px;background-color: darken(@color-green, 5%);position: absolute;bottom: 0;left: 0;z-index: -1;}}
+.banner {width: 200px;padding: 15px;background-color: @color-green;color: #fff;text-align: center;transform: rotate(-45deg) translate(-28%, -35%);box-shadow: 0px 5px 5px rgba(0,0,0,0.4);text-transform: uppercase;text-shadow: 0 2px 2px rgba(0,0,0,0.4);}
+//Other
+body {margin: 0;font-family: 'Arial', sans-serif;background-color: #f9f9f9;}
+.container {position: absolute;top: 50%;left: 50%;transform: translate(-50%, -50%);}
+/*---------------------------------------fin_banner_return--------------------------------------------*/
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+#wrapper {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+section button {
+  margin: 0 auto;
+  font-size: 2.0rem;
+  padding: 1.25rem 2.5rem;
+  display: block;
+  background-color: #1a1a1a;
+  border: 1px solid transparent;
+  color: #ffffff;
+  font-weight: 300;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+section button:hover {
+  box-shadow: 1px 2px 5px #1a1a1a;
+}
+.boxer:hover{
+	color:red;
+}
+
+/*--index.php--*/
+*{box-sizing: border-box;}
+body{margin: 0;font-family: sans-serif;}
+a{text-decoration: none;}
+.heading{border-bottom: 1px solid black;position:fixed;width: 100%;height: 75px;text-align:center;background: #1a1a1a;color:#fff4e0;font-size: 50px;font-family: 'Montserrat', sans-serif;z-index: 2;}
+.headingLog{color:#ff3030;padding: 0;margin: 0;display: inline;}
+.form{width: 500px;max-width: 100%;padding:20px;margin:auto;margin-top: 0px;box-shadow: 0px 0px 6px 1px gray;position: relative;z-index: 1;}
+.formTitle{text-align: center;margin-top: 0;font-family: 'Ubuntu Condensed', sans-serif;}
+.formLabel, .formInput, .formSubmit {display: block;width: 100%;font-size: 1.3em;font-family: 'Ubuntu Condensed', sans-serif;}
+.formInput{padding: 20px;margin-bottom: 40px;box-shadow: 0 0 10px 1px rgba(0,0,0,0.3);background:transparent;}
+.formInput:focus{outline: 1px solid rgba(0,0,0,0.7);}
+.formInput:focus + .formLabel{margin-top: -135px;}
+.formLabel{padding-left:15px;position: absolute;margin-top: -85px;z-index: -20;color: rgba(0,0,0,0.5);transition: all 0.2s;}
+.formSubmit{background: rgba(0,0,0,0.7);color: white;padding: 10px 20px;cursor: pointer;border: none;}
+.fijar{margin-top:-135px;}
+.logoStyle{margin: auto;}
+/*---all_home----*/
+.estiloA2{color: red;}
+/*--register.php--*/
+#line{font-family: 'Montserrat', sans-serif;font-size: 20px;}
+.gotolog{font-family: 'Ubuntu', sans-serif;font-size: 30px;}
+/*---Redirect.php---*/
+/*--------------------------------home.php------------------------------------------*/
+h3{color:#ff3030;font-family: 'Montserrat', sans-serif;}
+.block{height: 400px;}
+/*--------------------------------mirarOld.php------------------------------------------*/
+.heightActu{height:200px;}
+.StlActu{font-size: 50px;font-family:'Ubuntu', sans-serif;}
+.shwGeneral{box-shadow: 0 15px 15px -15px rgba(0, 0, 0, 0.5);}
+.bgActu{background-color: #1a1a1a;margin:10px;}
+.sensInputs{width:80%;text-align: center;font-size: 22px;background: none;color: black;box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.6);font-family: 'Ubuntu', sans-serif;}
+.sensNames{width:80%;text-align: center;font-size: 22px;color:black; font-family: 'Ubuntu', sans-serif;}
+.sensNamesB{width:80%;text-align: center;fontsize: 22px;color: white; font-family: 'Ubuntu', sans-serif;}
+.marginEspecial{margin:5px!important}.marginEspecial-top{margin-top:36px!important}.marginEspecial-bottom{margin-bottom:36px!important}
+.marginEspecial-left{margin-left:46px!important}.marginEspecial-right{margin-right:46px!important}
+.actStyle{margin: 1px;}
+.w3-animate-fading-text{animation: opacitys 10s}@keyframes opacitys{0%{opacity: 0;}50%{opacity: 1;}}
+.w3-animate-fading-icon{animation: opacitys 40s}@keyframes opacitys{0%{opacity: 0;}50%{opacity: 1;}}
+.insideSHW{color: rgba(0,0,0,0.6);text-shadow: 2px 2px 3px rgba(255,255,255,0.1);}
+select{width: 80%;text-align:center; font-size: 22px;color:black;box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.6);font-family: 'Ubuntu', sans-serif;}
+.barraSuperior{background-color: #e1e3e8;}
+.barraInferior{background-color: #f7f8f9;}
+.explic{background-color: black;color:white;}
+.blockSens{height: 50px;}
+.inline{display: block;}
+.inputCenter{text-align:center;}
+input{border: 0px solid #555555;}
+.centerInput{text-align: center;}
+/*------------------------------------mirarNew.php----------------------------------------------*/
+.styleRow{height: 300px;background-color:#1a1a1a;}
+.borderRow{border:1px solid black;}
+/*--------------------------------editar.php------------------------------------------*/
+.offStyle:hover{color: red;}
