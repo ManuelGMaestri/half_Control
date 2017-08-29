@@ -1,2 +1,2 @@
 # half_Control
-PLC - RB &amp; Arduino - Json/php
+PLC - RB &amp; Arduino - JS/PHP
